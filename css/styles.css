@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
 }
@@ -73,24 +73,23 @@ a {
 } 
 
 .hero-btn {
-    font-family: "Roboto", serif;
-    display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: row;
-        gap: 10px;
-        border-radius: 4px;
-            padding: 16px 32px;
-            width: 169px;
-            height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;    
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
+    font-family: "Roboto", sans-serif;
+        cursor: pointer;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #fff;
+            background: #4d5ae5;    
+        display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: row;
+            gap: 10px;
+            border-radius: 4px;
+                padding: 16px 32px;
+                width: 169px;
+                height: 56px;
 }
 
 .hero-btn:hover,
@@ -104,7 +103,14 @@ a {
 
 .feature-list {}
 
-.feature-item {}
+.feature-item {
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 8px;
+    
+}
 
 .feature-subtitle {
     font-weight: 500;
