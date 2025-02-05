@@ -12,8 +12,7 @@ a {
     text-decoration: none;
 }
 
-/* ----------------------------Header------------------------ */
-
+/* ------------------heder-------------------- */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -24,7 +23,7 @@ a {
     color: #4d5ae5;
 }
 
-.header-logo .logo-studio{
+.header-logo .logo-studio {
     color: #2e2f42;
 }
 
@@ -48,7 +47,6 @@ a {
 }
 
 .contacts-link {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -58,9 +56,7 @@ a {
 /* --------------------------Hero------------------ */
 
 .hero {
-    background: #2e2f42;
-    width: 1440px;
-    height: 600px;
+    background: #2e2f42;    
 }
 
 .hero-title {
@@ -69,27 +65,18 @@ a {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff
+    color: #fff;
 } 
 
 .hero-btn {
-    font-family: "Roboto", sans-serif;
-        cursor: pointer;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            color: #fff;
-            background: #4d5ae5;    
-        display: flex;
-            align-items: flex-start;
-            justify-content: flex-start;
-            flex-direction: row;
-            gap: 10px;
-            border-radius: 4px;
-                padding: 16px 32px;
-                width: 169px;
-                height: 56px;
+    font-family: "Roboto", sans-serif;        
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4d5ae5; 
+    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -103,25 +90,17 @@ a {
 
 .feature-list {}
 
-.feature-item {
-    display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 8px;
-    
-}
+.feature-item {}
 
 .feature-subtitle {
     font-weight: 500;
     font-size: 20px;    
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42
+    color: #2e2f42;
 }
 
 .feature-item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -148,10 +127,6 @@ a {
 
 .team-item {
     background: #ffffff;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
 }
 
 .team-img {}
@@ -166,7 +141,6 @@ a {
 }
 
 .team-item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -191,11 +165,7 @@ a {
 
 .portfolio-list {}
 
-.portfolio-item {
-    width: 360px;
-        height: 420px;
-        background: #fff;
-}
+.portfolio-item {}
 
 .portfolio-img {}
 
@@ -208,7 +178,6 @@ a {
 }
 
 .portfolio-item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -219,8 +188,6 @@ a {
 
 .footer-page {
     background: #2e2f42;
-    width: 1440px;
-    height: 312px;
 }
 
 .footer-logo .futer-logo-studio{
@@ -230,7 +197,6 @@ a {
 .futer-logo-studio {}
 
 .footer-item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
